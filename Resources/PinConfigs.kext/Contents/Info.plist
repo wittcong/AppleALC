@@ -7808,11 +7808,29 @@
 					<key>CodecID</key>
 					<integer>283904151</integer>
 					<key>ConfigData</key>
-					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEBtwwCARcckAEXHeABFx5FARcfAQFHDAI=</data>
+					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEBtwwCARcckAEXHeABFx5FARcfAQFHDAIBHhxQAR4dYQEeHkUBHh8B</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>66</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAI=</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>ASUS_TUF_B760M_PLUS_ALC897</string>
+					<key>CodecID</key>
+					<integer>283904151</integer>
+					<key>ConfigData</key>
+					<data>AREc8AERHREBER4RAREfQQEUHBABFB1AARQeAQEUHwEBFRwSARUdEAEVHgEBFR8BARYcEQEWHWABFh4BARYfAQEXHPABFx0RARceEQEXH0EBGBwwARgdkAEYHqEBGB8BARkcQAEZHZABGR6hARkfAgEaHD8BGh0wARoegQEaHwEBGxwgARsdQAEbHiEBGx8CARwc8AEcHREBHB4RARwfQQEdHPABHR0RAR0eEQEdH0EBHhxQAR4dYQEeHkUBHh8BAR8c8AEfHREBHx4RAR8fQQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>68</integer>
 					<key>WakeConfigData</key>
 					<data>AUcMAgG3DAI=</data>
 					<key>WakeVerbReinit</key>
