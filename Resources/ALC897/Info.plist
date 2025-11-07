@@ -212,6 +212,8 @@
 	<key>Patches</key>
 	<array>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Codec ID - Mojave+ (18+), includes Sequoia (24) and Tahoe (25+)</string>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
@@ -224,6 +226,8 @@
 			<data>xgYBSIu/aAE=</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Codec ID - Mavericks (13)</string>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
@@ -238,10 +242,14 @@
 			<data>QcYGAUmLvCQ=</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Codec ID - Yosemite to Sierra (14-17)</string>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
 			<data>QcYGAEiLu2g=</data>
+			<key>MaxKernel</key>
+			<integer>17</integer>
 			<key>MinKernel</key>
 			<integer>14</integer>
 			<key>Name</key>
@@ -250,6 +258,8 @@
 			<data>QcYGAUiLu2g=</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Audio Controller Enable - All versions (13+)</string>
 			<key>Count</key>
 			<integer>1</integer>
 			<key>Find</key>
@@ -262,6 +272,8 @@
 			<data>QcaGQwEAAAE=</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Vendor/Device ID Patch - All versions (13+)</string>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
@@ -274,6 +286,8 @@
 			<data>lwjsEA==</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Legacy Patch - El Capitan (15)</string>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
@@ -288,6 +302,8 @@
 			<data>AAAAAA==</data>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>ALC897 Modern Systems Patch - Sierra+ (16+), includes Sequoia (24) and Tahoe (25+)</string>
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
