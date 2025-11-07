@@ -54,6 +54,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ASUS_TUF_B760M_PLUS_ALC897</string>
+				<key>Id</key>
+				<integer>68</integer>
+				<key>Path</key>
+				<string>layout68.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MSI_Z490-A-PRO_ALC897</string>
 				<key>Id</key>
 				<integer>69</integer>
