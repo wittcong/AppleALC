@@ -22,14 +22,38 @@
 				<string>LineIn</string>
 			</array>
 			<key>LineIn</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>LineIn</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>LineOut</key>
 			<dict>
 				<key>Type</key>
 				<string>Speaker</string>
 			</dict>
 			<key>Mic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>LineOut</string>
@@ -41,7 +65,19 @@
 			<key>PathMapID</key>
 			<integer>68</integer>
 			<key>RearMic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>SPDIFOut</key>
 			<dict/>
 			<key>Surround</key>
