@@ -8,11 +8,7 @@
 			<array>
 				<integer>283904151</integer>
 			</array>
-			<key>Mic</key>
-			<dict/>
-			<key>RearMic</key>
-			<dict/>
-			<key>LineIn</key>
+			<key>Headphone</key>
 			<dict/>
 			<key>Inputs</key>
 			<array>
@@ -20,15 +16,11 @@
 				<string>RearMic</string>
 				<string>LineIn</string>
 			</array>
+			<key>LineIn</key>
+			<dict/>
 			<key>LineOut</key>
 			<dict/>
-			<key>Surround</key>
-			<dict/>
-			<key>CenterLFE</key>
-			<dict/>
-			<key>Headphone</key>
-			<dict/>
-			<key>SPDIFOut</key>
+			<key>Mic</key>
 			<dict/>
 			<key>Outputs</key>
 			<array>
@@ -40,6 +32,14 @@
 			</array>
 			<key>PathMapID</key>
 			<integer>68</integer>
+			<key>RearMic</key>
+			<dict/>
+			<key>SPDIFOut</key>
+			<dict/>
+			<key>Surround</key>
+			<dict/>
+			<key>CenterLFE</key>
+			<dict/>
 		</dict>
 	</array>
 </dict>
