@@ -19,6 +19,7 @@
 		<dict>
 			<key>PathMap</key>
 			<array>
+			<array>
 				<array>
 					<dict>
 						<key>Amp</key>
@@ -419,6 +420,7 @@
 						<integer>6</integer>
 					</dict>
 				</array>
+			</array>
 			</array>
 			<key>PathMapID</key>
 			<integer>68</integer>
