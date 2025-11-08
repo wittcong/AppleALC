@@ -9,7 +9,12 @@
 				<integer>283904151</integer>
 			</array>
 			<key>Headphone</key>
-			<dict/>
+			<dict>
+				<key>AutoActive</key>
+				<false/>
+				<key>ForceActive</key>
+				<false/>
+			</dict>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
@@ -19,7 +24,10 @@
 			<key>LineIn</key>
 			<dict/>
 			<key>LineOut</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>Mic</key>
 			<dict/>
 			<key>Outputs</key>
@@ -37,9 +45,15 @@
 			<key>SPDIFOut</key>
 			<dict/>
 			<key>Surround</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>CenterLFE</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 		</dict>
 	</array>
 </dict>
