@@ -21,13 +21,27 @@
 				<string>LineIn</string>
 			</array>
 			<key>LineOut</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>Surround</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>CenterLFE</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>Headphone</key>
-			<dict/>
+			<dict>
+				<key>AutoActive</key>
+				<false/>
+				<key>ForceActive</key>
+				<false/>
+			</dict>
 			<key>SPDIFOut</key>
 			<dict/>
 			<key>Outputs</key>
