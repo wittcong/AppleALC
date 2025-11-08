@@ -30,8 +30,8 @@ jobs:
         run: |
           src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval "$src" || exit 1
 
-      - run: xcodebuild -jobs 1 -configuration Debug -arch ACID32 -arch x86_64 MACOSX_DEPLOYMENT_TARGET=10.13
-      - run: xcodebuild -jobs 1 -configuration Release -arch ACID32 -arch x86_64 MACOSX_DEPLOYMENT_TARGET=10.13
+      - run: xcodebuild -jobs 1 -configuration Debug -arch ACID32 -arch x86_64
+      - run: xcodebuild -jobs 1 -configuration Release -arch ACID32 -arch x86_64
 
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v4
@@ -65,8 +65,8 @@ jobs:
         run: |
           src=$(/usr/bin/curl -Lfs https://raw.githubusercontent.com/acidanthera/Lilu/master/Lilu/Scripts/bootstrap.sh) && eval "$src" || exit 1
 
-      - run: xcodebuild analyze -quiet -scheme AppleALC -configuration Debug -arch ACID32 -arch x86_64 MACOSX_DEPLOYMENT_TARGET=10.13 CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
-      - run: xcodebuild analyze -quiet -scheme AppleALC -configuration Release -arch ACID32 -arch x86_64 MACOSX_DEPLOYMENT_TARGET=10.13 CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
+      - run: xcodebuild analyze -quiet -scheme AppleALC -configuration Debug -arch ACID32 -arch x86_64 CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
+      - run: xcodebuild analyze -quiet -scheme AppleALC -configuration Release -arch ACID32 -arch x86_64 CLANG_ANALYZER_OUTPUT=plist-html CLANG_ANALYZER_OUTPUT_DIR="$(pwd)/clang-analyze" && [ "$(find clang-analyze -name "*.html")" = "" ]
 
   analyze-coverity:
     name: Analyze Coverity
@@ -93,4 +93,4 @@ jobs:
         env:
           COVERITY_SCAN_TOKEN: ${{ secrets.COVERITY_SCAN_TOKEN }}
           COVERITY_SCAN_EMAIL: ${{ secrets.COVERITY_SCAN_EMAIL }}
-          COVERITY_BUILD_COMMAND: xcodebuild -configuration Release MACOSX_DEPLOYMENT_TARGET=10.13
+          COVERITY_BUILD_COMMAND: xcodebuild -configuration Release
