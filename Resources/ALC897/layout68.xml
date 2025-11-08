@@ -8,38 +8,6 @@
 			<array>
 				<integer>283904151</integer>
 			</array>
-			<key>Headphone</key>
-			<dict>
-				<key>AutoActive</key>
-				<false/>
-				<key>ForceActive</key>
-				<false/>
-			</dict>
-			<key>Inputs</key>
-			<array>
-				<string>Mic</string>
-				<string>RearMic</string>
-				<string>LineIn</string>
-			</array>
-			<key>LineIn</key>
-			<dict>
-				<key>Type</key>
-				<string>LineIn</string>
-				<key>Channels</key>
-				<integer>2</integer>
-				<key>Controls</key>
-				<dict>
-					<key>Mute</key>
-					<true/>
-					<key>Volume</key>
-					<true/>
-				</dict>
-			</dict>
-			<key>LineOut</key>
-			<dict>
-				<key>Type</key>
-				<string>Speaker</string>
-			</dict>
 			<key>Mic</key>
 			<dict>
 				<key>Type</key>
@@ -54,16 +22,6 @@
 					<true/>
 				</dict>
 			</dict>
-			<key>Outputs</key>
-			<array>
-				<string>LineOut</string>
-				<string>Surround</string>
-				<string>CenterLFE</string>
-				<string>Headphone</string>
-				<string>SPDIFOut</string>
-			</array>
-			<key>PathMapID</key>
-			<integer>68</integer>
 			<key>RearMic</key>
 			<dict>
 				<key>Type</key>
@@ -78,8 +36,31 @@
 					<true/>
 				</dict>
 			</dict>
-			<key>SPDIFOut</key>
-			<dict/>
+			<key>LineIn</key>
+			<dict>
+				<key>Type</key>
+				<string>LineIn</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>Inputs</key>
+			<array>
+				<string>Mic</string>
+				<string>RearMic</string>
+				<string>LineIn</string>
+			</array>
+			<key>LineOut</key>
+			<dict>
+				<key>Type</key>
+				<string>Speaker</string>
+			</dict>
 			<key>Surround</key>
 			<dict>
 				<key>Type</key>
@@ -90,6 +71,25 @@
 				<key>Type</key>
 				<string>Speaker</string>
 			</dict>
+			<key>Headphone</key>
+			<dict>
+				<key>AutoActive</key>
+				<false/>
+				<key>ForceActive</key>
+				<false/>
+			</dict>
+			<key>SPDIFOut</key>
+			<dict/>
+			<key>Outputs</key>
+			<array>
+				<string>LineOut</string>
+				<string>Surround</string>
+				<string>CenterLFE</string>
+				<string>Headphone</string>
+				<string>SPDIFOut</string>
+			</array>
+			<key>PathMapID</key>
+			<integer>68</integer>
 		</dict>
 	</array>
 </dict>
