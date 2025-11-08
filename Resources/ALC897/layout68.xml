@@ -9,12 +9,47 @@
 				<integer>283904151</integer>
 			</array>
 			<key>Mic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>RearMic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>LineIn</key>
-			<dict/>
-			<key>Inputs</key>
+			<dict>
+				<key>Type</key>
+				<string>LineIn</string>
+				<key>Channels</key>
+				<integer>2</integer>
+				<key>Controls</key>
+				<dict>
+					<key>Mute</key>
+					<true/>
+					<key>Volume</key>
+					<true/>
+				</dict>
+			</dict>
 			<array>
 				<string>Mic</string>
 				<string>RearMic</string>
