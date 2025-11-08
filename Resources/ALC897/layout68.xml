@@ -9,47 +9,11 @@
 				<integer>283904151</integer>
 			</array>
 			<key>Mic</key>
-			<dict>
-				<key>Type</key>
-				<string>Microphone</string>
-				<key>Channels</key>
-				<integer>2</integer>
-				<key>Controls</key>
-				<dict>
-					<key>Mute</key>
-					<true/>
-					<key>Volume</key>
-					<true/>
-				</dict>
-			</dict>
+			<dict/>
 			<key>RearMic</key>
-			<dict>
-				<key>Type</key>
-				<string>Microphone</string>
-				<key>Channels</key>
-				<integer>2</integer>
-				<key>Controls</key>
-				<dict>
-					<key>Mute</key>
-					<true/>
-					<key>Volume</key>
-					<true/>
-				</dict>
-			</dict>
+			<dict/>
 			<key>LineIn</key>
-			<dict>
-				<key>Type</key>
-				<string>LineIn</string>
-				<key>Channels</key>
-				<integer>2</integer>
-				<key>Controls</key>
-				<dict>
-					<key>Mute</key>
-					<true/>
-					<key>Volume</key>
-					<true/>
-				</dict>
-			</dict>
+			<dict/>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
@@ -57,27 +21,13 @@
 				<string>LineIn</string>
 			</array>
 			<key>LineOut</key>
-			<dict>
-				<key>Type</key>
-				<string>Speaker</string>
-			</dict>
+			<dict/>
 			<key>Surround</key>
-			<dict>
-				<key>Type</key>
-				<string>Speaker</string>
-			</dict>
+			<dict/>
 			<key>CenterLFE</key>
-			<dict>
-				<key>Type</key>
-				<string>Speaker</string>
-			</dict>
+			<dict/>
 			<key>Headphone</key>
-			<dict>
-				<key>AutoActive</key>
-				<false/>
-				<key>ForceActive</key>
-				<false/>
-			</dict>
+			<dict/>
 			<key>SPDIFOut</key>
 			<dict/>
 			<key>Outputs</key>
