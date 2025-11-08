@@ -23,6 +23,7 @@
 				</array>
 				<array>
 					<array>
+						<array>
 						<dict>
 							<key>Amp</key>
 							<dict>
@@ -63,8 +64,10 @@
 							<key>NodeID</key>
 							<integer>25</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>Amp</key>
 							<dict>
@@ -105,8 +108,10 @@
 							<key>NodeID</key>
 							<integer>24</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>Amp</key>
 							<dict>
@@ -145,10 +150,12 @@
 							<key>NodeID</key>
 							<integer>26</integer>
 						</dict>
+						</array>
 					</array>
 				</array>
 				<array>
 					<array>
+						<array>
 						<dict>
 							<key>NodeID</key>
 							<integer>20</integer>
@@ -213,8 +220,10 @@
 							<key>NodeID</key>
 							<integer>2</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>NodeID</key>
 							<integer>21</integer>
@@ -279,8 +288,10 @@
 							<key>NodeID</key>
 							<integer>3</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>NodeID</key>
 							<integer>22</integer>
@@ -345,8 +356,10 @@
 							<key>NodeID</key>
 							<integer>4</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>NodeID</key>
 							<integer>27</integer>
@@ -411,8 +424,10 @@
 							<key>NodeID</key>
 							<integer>5</integer>
 						</dict>
+						</array>
 					</array>
 					<array>
+						<array>
 						<dict>
 							<key>NodeID</key>
 							<integer>30</integer>
@@ -421,6 +436,7 @@
 							<key>NodeID</key>
 							<integer>6</integer>
 						</dict>
+						</array>
 					</array>
 				</array>
 			</array>
