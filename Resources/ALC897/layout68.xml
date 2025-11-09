@@ -21,7 +21,10 @@
 			<key>LineOut</key>
 			<dict/>
 			<key>Mic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>LineOut</string>
@@ -33,7 +36,10 @@
 			<key>PathMapID</key>
 			<integer>68</integer>
 			<key>RearMic</key>
-			<dict/>
+			<dict>
+				<key>Type</key>
+				<string>Microphone</string>
+			</dict>
 			<key>SPDIFOut</key>
 			<dict/>
 			<key>Surround</key>
