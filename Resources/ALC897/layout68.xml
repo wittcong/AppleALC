@@ -34,7 +34,10 @@
 				<false/>
 			</dict>
 			<key>SPDIFOut</key>
-			<dict/>
+			<dict>
+				<key>ForceActive</key>
+				<true/>
+			</dict>
 			<key>Outputs</key>
 			<array>
 				<string>LineOut</string>
