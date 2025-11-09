@@ -20,6 +20,7 @@
 			<key>PathMap</key>
 			<array>
 				<array>
+				<array>
 					<array>
 						<dict>
 							<key>Amp</key>
@@ -63,6 +64,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -107,6 +110,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -149,6 +154,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -217,6 +224,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -285,6 +294,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -353,6 +364,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -421,6 +434,8 @@
 						</dict>
 					</array>
 				</array>
+				</array>
+				<array>
 				<array>
 					<array>
 						<dict>
@@ -432,6 +447,7 @@
 							<integer>6</integer>
 						</dict>
 					</array>
+				</array>
 				</array>
 			</array>
 			<key>PathMapID</key>
