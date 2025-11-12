@@ -8,32 +8,39 @@
 			<array>
 				<integer>283904151</integer>
 			</array>
-			<key>Mic</key>
-			<dict/>
+			<key>RearMic</key>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242840</integer>
+			</dict>
 			<key>LineIn</key>
-			<dict/>
+			<dict>
+			</dict>
+			<key>Mic</key>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242841</integer>
+			</dict>
 			<key>Inputs</key>
 			<array>
-				<string>Mic</string>
+				<string>RearMic</string>
 				<string>LineIn</string>
+				<string>Mic</string>
 			</array>
 			<key>LineOut</key>
-			<dict/>
+			<dict>
+			</dict>
 			<key>Surround</key>
-			<dict/>
+			<dict>
+			</dict>
 			<key>CenterLFE</key>
-			<dict/>
+			<dict>
+			</dict>
 			<key>Headphone</key>
 			<dict>
-				<key>AutoActive</key>
-				<false/>
-				<key>ForceActive</key>
-				<false/>
 			</dict>
 			<key>SPDIFOut</key>
 			<dict>
-				<key>ForceActive</key>
-				<true/>
 			</dict>
 			<key>Outputs</key>
 			<array>
