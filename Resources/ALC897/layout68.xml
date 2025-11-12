@@ -14,8 +14,7 @@
 				<integer>1342242840</integer>
 			</dict>
 			<key>LineIn</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
@@ -28,20 +27,15 @@
 				<string>Mic</string>
 			</array>
 			<key>LineOut</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>Surround</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>CenterLFE</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>Headphone</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>SPDIFOut</key>
-			<dict>
-			</dict>
+			<dict/>
 			<key>Outputs</key>
 			<array>
 				<string>LineOut</string>
