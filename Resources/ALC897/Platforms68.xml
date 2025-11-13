@@ -161,6 +161,21 @@
 								<integer>20</integer>
 							</dict>
 							<dict>
+								<key>Channels</key>
+								<array>
+									<dict>
+										<key>Bind</key>
+										<integer>1</integer>
+										<key>Channel</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>Bind</key>
+										<integer>2</integer>
+										<key>Channel</key>
+										<integer>2</integer>
+									</dict>
+								</array>
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
@@ -216,6 +231,21 @@
 								<integer>21</integer>
 							</dict>
 							<dict>
+								<key>Channels</key>
+								<array>
+									<dict>
+										<key>Bind</key>
+										<integer>1</integer>
+										<key>Channel</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>Bind</key>
+										<integer>2</integer>
+										<key>Channel</key>
+										<integer>2</integer>
+									</dict>
+								</array>
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
@@ -271,6 +301,21 @@
 								<integer>22</integer>
 							</dict>
 							<dict>
+								<key>Channels</key>
+								<array>
+									<dict>
+										<key>Bind</key>
+										<integer>1</integer>
+										<key>Channel</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>Bind</key>
+										<integer>2</integer>
+										<key>Channel</key>
+										<integer>2</integer>
+									</dict>
+								</array>
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
@@ -326,6 +371,21 @@
 								<integer>27</integer>
 							</dict>
 							<dict>
+								<key>Channels</key>
+								<array>
+									<dict>
+										<key>Bind</key>
+										<integer>1</integer>
+										<key>Channel</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>Bind</key>
+										<integer>2</integer>
+										<key>Channel</key>
+										<integer>2</integer>
+									</dict>
+								</array>
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
