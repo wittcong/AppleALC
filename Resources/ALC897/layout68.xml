@@ -8,12 +8,12 @@
 			<array>
 				<integer>283904151</integer>
 			</array>
-			<key>RearMic</key>
+			<key>Mic</key>
 			<dict>
 				<key>MuteGPIO</key>
 				<integer>1342242840</integer>
 			</dict>
-			<key>Mic</key>
+			<key>ExtMic</key>
 			<dict>
 				<key>MuteGPIO</key>
 				<integer>1342242841</integer>
@@ -22,8 +22,8 @@
 			<dict/>
 			<key>Inputs</key>
 			<array>
-				<string>RearMic</string>
 				<string>Mic</string>
+				<string>ExtMic</string>
 				<string>LineIn</string>
 			</array>
 			<key>LineOut</key>
