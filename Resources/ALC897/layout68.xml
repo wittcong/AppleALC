@@ -32,7 +32,7 @@
 			<dict/>
 			<key>CenterLFE</key>
 			<dict/>
-			<key>Speaker</key>
+			<key>Headphone</key>
 			<dict/>
 			<key>SPDIFOut</key>
 			<dict/>
@@ -41,7 +41,7 @@
 				<string>LineOut</string>
 				<string>Surround</string>
 				<string>CenterLFE</string>
-				<string>Speaker</string>
+				<string>Headphone</string>
 				<string>SPDIFOut</string>
 			</array>
 			<key>PathMapID</key>
