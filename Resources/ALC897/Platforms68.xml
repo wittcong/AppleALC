@@ -41,7 +41,7 @@
 										</dict>
 									</array>
 									<key>MuteInputAmp</key>
-									<true/>
+									<false/>
 									<key>PublishMute</key>
 									<false/>
 									<key>PublishVolume</key>
