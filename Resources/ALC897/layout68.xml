@@ -46,16 +46,18 @@
 			</dict>
 			<key>LineIn</key>
 			<dict/>
+			<key>ExtLineIn</key>
+			<dict>
+				<key>MuteGPIO</key>
+				<integer>1342242841</integer>
+			</dict>
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
 				<string>LineIn</string>
+				<string>ExtLineIn</string>
 			</array>
-			<key>LineOut</key>
-			<dict/>
-			<key>Surround</key>
-			<dict/>
-			<key>CenterLFE</key>
+			<key>IntSpeaker</key>
 			<dict/>
 			<key>Headphone</key>
 			<dict/>
@@ -63,9 +65,9 @@
 			<dict/>
 			<key>Outputs</key>
 			<array>
-				<string>LineOut</string>
-				<string>Surround</string>
-				<string>CenterLFE</string>
+				<string>IntSpeaker</string>
+				<string>IntSpeaker</string>
+				<string>IntSpeaker</string>
 				<string>Headphone</string>
 				<string>SPDIFOut</string>
 			</array>
