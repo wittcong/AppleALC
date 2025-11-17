@@ -54,8 +54,8 @@
 			<key>Inputs</key>
 			<array>
 				<string>Mic</string>
-				<string>LineIn</string>
 				<string>ExtLineIn</string>
+				<string>LineIn</string>
 			</array>
 			<key>IntSpeaker</key>
 			<dict/>
